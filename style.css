@@ -7,7 +7,7 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: darkblue;
-    background: url(../images/background.jpg);
+    background: url(images/background1.jpg);
 }
 
 * {
@@ -50,8 +50,8 @@ h2, h3 {
     width: 100%;
     margin: 0 0 30px;
     overflow: auto;
-    color:turquoise;
-    background: aqua;
+    color: blueviolet;
+    background: lightskyblue;
     border-bottom: 2px solid;
 }
 
