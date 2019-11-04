@@ -8,7 +8,7 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: darkblue;
-    background: url(images/background1.jpg);
+    background: url(images/background2.jpg);
 }
 
 * {
@@ -22,6 +22,14 @@ body {
   clear: both;  
 }
 
+#icons {
+  display: inline-table;
+
+}
+
+#icons p {
+  margin: 0;
+}
 h1, h2, h3, p {
   margin-bottom: 20px;
 }
@@ -29,7 +37,7 @@ h1, h2, h3, p {
 h1, h2, h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
-  color:yellow;
+  color: darkblue;
 }
 
 h1 {
@@ -93,7 +101,7 @@ footer {
   color: #cccccc;
   text-align: center;
   background: #666666;
-  border-top: 8px solid aqua;
+  border-top: 8px solid rgb(100, 100, 247) ;
   height: 50px;
 }
 
@@ -110,14 +118,15 @@ footer {
   max-width: 960px;
   padding: 30px;
   margin: 0 0 40px;
-  background: lightgray;
+  background: rgb(241, 238, 238);
   border: 1px solid #dddddd;
 }
 
 .priority {
+  float: left;
   position: relative;
   width: 274px;
-  margin: 20px 10px 25px;
+  margin: 20px 5px 25px;
   overflow: auto;
 }
 
@@ -132,15 +141,25 @@ footer {
   bottom: 20px;
   width: 100%;
   padding: 15px;
-  margin-bottom: 0;
+  margin-bottom: 8px;
   font-weight: 300;
   line-height: 30px;
   color: darkblue;
   text-align: center;
-  background: aqua;
+  background:  rgb(100, 100, 247);
   border-bottom: 0;
 }
+.priority a {
+  position: relative;
+  font-size: 15px;
+  text-align: center;
+  color: purple;
+  margin-right: 15px;
+}
 
+a:hover {
+  color: blue;
+}
 .auth-image {
   float: left;
   width: 200px;
@@ -185,7 +204,7 @@ input[type=submit] {
   font-size: 18px;
   color: darkblue;
   cursor: pointer;
-  background: aqua;
+  background: rgb(100, 100, 247);
   border: 0 none;
 }
 
